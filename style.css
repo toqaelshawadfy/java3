@@ -1,0 +1,119 @@
+body{
+    background-color: #F7ECDE;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 300;
+    position: relative;
+    color: #352E28;
+}
+/*h1::after{
+    content: '';
+    position: absolute;
+    border-bottom: 2px dotted black;
+    width: 100%;
+    bottom: -100%;
+    left: -15%;
+}*/
+ h1::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 26%;
+    bottom: 12px;
+    background-color:#FEC260;
+    z-index: -1;
+    transition: height 360ms ;
+    -webkit-transition: height 360ms ;
+    -moz-transition: height 360ms ;
+    -ms-transition: height 360ms ;
+    -o-transition: height 360ms ;
+}
+ h1:hover:before{
+    height: 47%;
+}
+h2{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 25px;
+}
+.btn-submit{
+    background-color:#d1512d ;
+    color: white;
+    cursor: pointer;
+  
+}
+.btn-submit:hover{
+    background-color:#bb4120 ;
+    color: white;
+}
+.btn-update{
+    background-color: #FEC260;
+    color: white;
+}
+.btn-visit a{
+    color: white;
+    text-decoration: none;
+}
+.btn-visit{
+    background-color: #9eb23b;
+    cursor: pointer;
+    padding: 7px 20px ;
+}
+.btn-visit:hover{
+    background-color: #8a9e23;
+    color: white;
+}
+.btn-update{
+    background-color: #FEC260;
+    color: white;
+    padding: 7px 20px ;
+}
+.btn-update:hover{
+    background-color: #e8b056;
+    color: white;
+}
+.btn-delete{
+    background-color: #eb1d36;
+    color: white;
+    cursor: pointer;
+    padding: 7px 20px ;
+}
+.btn-delete:hover{
+    background-color: #d30820;
+    color: white;
+}
+
+.circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.circles  .child1{
+    background-color: #F15F5D;
+}
+.circles  .child2{
+    background-color: #FEBE2E;
+}
+.circles  .child3{
+    background-color: #4DB748;
+}
+p {
+    font-family: 'Bree Serif', serif;
+    font-size: 19px;
+    line-height: 1;
+    color: #352e28;
+}
+ol li{
+    font-size: 18px;
+    margin-top: 12px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+li i{
+    color: rgb(190, 8, 8);
+}
